@@ -1,0 +1,27 @@
+---
+layout: default
+title: Archive
+---
+<h1>Archive</h1>
+
+<ul>
+  {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
+  {% for year in postsByYear %}
+    <li>
+    <h2> {{ year.name }} </h2>
+    <ul>
+      {% assign postsByYearMonth = year.items | group_by_exp:"post", "post.date | date: '%B'" %}
+      {% for yearMonth in postsByYearMonth %}
+        <li>
+        <h3>{{ yearMonth.name }}</h3>
+        <ul>
+          {% for post in yearMonth.items %}
+            <li><a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} {{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+        </li>
+      {% endfor %}  
+    </ul>
+    </li>
+  {% endfor %}
+</ul>

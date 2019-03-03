@@ -32,3 +32,8 @@ a:not(.current):visited  {
   text-decoration: none;
   color: purple;
 }
+
+.navigation {
+  white-space: nowrap;
+  overflow: hidden;
+}

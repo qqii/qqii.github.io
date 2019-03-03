@@ -1,6 +1,6 @@
-<nav>
-    {% for item in site.data.navigation %}
-      <a {% include href.html link=item.link %}>{{ item.name }}</a>
-    {% endfor %}
-  </nav>
+<nav class="navigation">
+  {% for item in site.data.navigation %}
+    <a {% include href.html link=item.link %}>{{ item.name }}</a>
+  {% endfor %}
+</nav>
   
