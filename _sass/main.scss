@@ -4,12 +4,31 @@ body{
   padding: 0ch 1ch;
   font-family: monospace;
 }
+
 @media print{
   body{
     max-width:none
   }
 }
 
-.current {
-  color: green;
+a.current:not(visited) {
+  text-decoration: none;
+  color: white;
+  background-color: blue;
 } 
+
+a.current:visited {
+  text-decoration: none;
+  color: white;
+  background-color: purple;
+} 
+
+a:not(.current):not(visited)  {
+  text-decoration: none;
+  color: blue;
+}
+
+a:not(.current):visited  {
+  text-decoration: none;
+  color: purple;
+}
