@@ -2,7 +2,7 @@
 layout: post
 author: qqii
 tags: [wordpress, random]
-title: “The Fifty Shades trilogy was developed from a Twilight fan fiction series originally titled Master of the Universe and published episodically on fan-fiction websites under the pen name “Snowqueen’s Icedragon”.”
+title: "The Fifty Shades trilogy was developed from a Twilight fan fiction series originally titled Master of the Universe and published episodically on fan-fiction websites under the pen name Snowqueen’s Icedragon."
 ---
 The above quote is from the [wikipedia article](http://en.wikipedia.org/wiki/Fifty_Shades_of_Grey) on Fifty Shades of Grey.
 

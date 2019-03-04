@@ -2,6 +2,6 @@
 {% assign spacing = 20 %}
 <nav class="navigation" style="text-indent:{{spacing}}ch">
   {% for item in site.data.archive %}
-    <a {% include href.html link=item.link %}>{{ item.name }}&nbsp;</a>
+    <a {% include href.html link=item.link %}>{{ item.name }}</a>&nbsp;
   {% endfor %}
 </nav>

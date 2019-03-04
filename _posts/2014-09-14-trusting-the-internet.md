@@ -4,7 +4,7 @@ author: qqii
 tags: [wordpress, random]
 title: "You can’t trust what you read on the internet"
 ---
-“You can’t trust what you read on the internet” – A good friend.
+"You can’t trust what you read on the internet" – A good friend.
 
 There are many people who often say things like this, how you can’t trust people, websites or anything on the internet. The idea that anyone can go out and pretend to be someone else.
 
