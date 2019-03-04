@@ -1,7 +1,7 @@
 {%- comment -%} todo: better way to get spacing {%- endcomment -%}
 {% assign spacing = 20 %}
 <nav class="navigation" style="text-indent:{{spacing}}ch">
-  {% for item in site.data.archive %}
+  {% for item in site.data.archive limit:10 %}
     <a {% include href.html link=item.link %}>{{ item.name }}</a>&nbsp;
   {% endfor %}
 </nav>

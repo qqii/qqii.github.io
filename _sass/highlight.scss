@@ -7,9 +7,11 @@ pre {
 }
 
 html, .light { 
-    .highlight {
+    .highlighter-rouge {
         background: #002b36; 
         color: #839496;
+    }
+    .highlight {
         .hll { background-color: #ffffcc }
         .c { color: #586e75; font-style: italic } /* Comment */
         .err { color: #dc322f } /* Error */
@@ -90,9 +92,11 @@ html, .light {
 }
 
 .dark  { 
-    .highlight {
+    .highlighter-rouge {
         background: #fdf6e3; 
         color: #657b83;
+    }
+    .highlight {
         .hll { background-color: #ffffcc }
         .c { color: #93a1a1; font-style: italic } /* Comment */
         .err { color: #dc322f } /* Error */

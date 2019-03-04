@@ -10,7 +10,8 @@ permalink: /posts
   {% for post in site.posts %}
     <li>
       <h2><a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} {{ post.title }}</a></h2>
-      <p>{{ post.content | strip_html | truncate: 290 }}</p>
+      <p>{{ post.content | strip_html | truncate: 285 }}</p>
+      {%- comment -%} should just truncate to a roundish number then use css instead of fiddling with this all the time {%- endcomment -%} 
     </li>
   {% endfor %}
 </ul>
