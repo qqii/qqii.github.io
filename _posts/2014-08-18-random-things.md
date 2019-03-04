@@ -2,6 +2,7 @@
 layout: post
 author: qqii
 tags: [wordpress, random]
+title: Random things
 ---
 I often find myself spending a lot of time on the internet, doing semi-productive things such as learning about the new 1+1 phone, dogecoin and other such things. Most of the time when doing things like this, I argued to myself that I didn’t know when I would need such information. Then there are other times when I drift aimlessly attempting to find something interesting or important. It’s times like that when I realise how counter-productive I’ve been. So I have decided, instead to share these things so that somebody might benefit from it.
 

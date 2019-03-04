@@ -2,7 +2,7 @@
 layout: post
 author: qqii
 tags: [random]
-title:  "Hello, World!"
+title:  "Hello, world!"
 ---
 
 Hello, World!

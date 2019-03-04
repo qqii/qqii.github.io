@@ -4,7 +4,7 @@ author: qqii
 tags: [random, dear_future_self]
 title: Creativity
 ---
-Dear Future Me,
+Dear Future Self,
 
 This letter marks a new starting point. Your previous self has had a good run, but unfortunately he lost the battle. Within the span on a few hours, I was reborn, and I can no longer even empathise with my past self.
 
@@ -15,4 +15,4 @@ As can be seen from this letter post, the moment is only fleeting - even this po
 I am writing this so that you don't forget. Maybe one day you'll understand yourself, but for now I wish you the best, and I hope your future experiences are worthwhile for the next time.
 
 Best,  
-Past Me
+Past Self
