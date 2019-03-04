@@ -1,7 +1,7 @@
 {%- comment -%} todo: better way to get spacing {%- endcomment -%}
-{% assign spacing = 11 %}
+{% assign spacing = 13 %}
 <nav class="navigation" style="text-indent:{{spacing}}ch">
   {% for post in site.posts %}
-    <a {% include href.html link=post.url %}>{{ post.title | downcase }}</a>
+    <a {% include href.html link=post.url %}>{{ post.title | downcase }}&nbsp;</a>
   {% endfor %}
 </nav>
