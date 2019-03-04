@@ -1,10 +1,8 @@
-- name: About
-  link: /about.html
-- name: Home
+- name: about
+  link: /about
+- name: home
   link: /
-- name: Posts
-  link: /posts.html
-- name: Staff
-  link: /staff.html
-- name: Archive
-  link: /archive.html
+- name: posts
+  link: /posts
+- name: archive
+  link: /archive/date

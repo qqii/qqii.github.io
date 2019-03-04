@@ -1,13 +1,14 @@
 ---
-layout: default
+layout: archive
 title: Archive
+permalink: /archive/date
 ---
 <h1>Archive</h1>
 
-<ul>
+{%- comment -%} <ul> {%- endcomment -%}
   {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
   {% for year in postsByYear %}
-    <li>
+    {%- comment -%} <li> {%- endcomment -%}
     <h2> {{ year.name }} </h2>
     <ul>
       {% assign postsByYearMonth = year.items | group_by_exp:"post", "post.date | date: '%B'" %}
@@ -22,6 +23,6 @@ title: Archive
         </li>
       {% endfor %}  
     </ul>
-    </li>
+    {%- comment -%} </li> {%- endcomment -%}
   {% endfor %}
-</ul>
+{%- comment -%} </ul> {%- endcomment -%}

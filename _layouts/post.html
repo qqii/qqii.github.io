@@ -11,7 +11,7 @@ layout: default
 <br>
 {% assign author = site.authors | where: 'short_name', page.author | first %}
 {% if author %}
-  <a href="{{ author.url }}">{{ author.name }}</a>
+  <a href="{{ author.url }}">{{ author.short_name }}</a>
 {% endif %}
 
 {{ content }}
