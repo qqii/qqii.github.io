@@ -1,0 +1,8 @@
+---
+layout: none
+permalink: .well-known/brave-payments-verification.txt
+---
+This is a Brave Rewards publisher verification file.
+
+Domain: qqii.co.uk
+Token: c85625eb1d90a8e652082174e71ee0535a96cf6eb15f08bdbdd3c37d21d10313
